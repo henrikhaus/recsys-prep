@@ -247,7 +247,10 @@ export function DataTable({
         </thead>
         <tbody>
           {rows.map((r, i) => (
-            <tr key={i} className="odd:bg-[rgba(255,255,255,0.4)]">
+            <tr
+              key={i}
+              className="odd:bg-[rgba(23,58,64,0.06)] dark:odd:bg-[rgba(255,255,255,0.035)]"
+            >
               {r.map((c, j) => (
                 <td
                   key={j}
