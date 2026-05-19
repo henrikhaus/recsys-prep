@@ -63,10 +63,10 @@ function QuestionCard({ q }: { q: ExamQuestion }) {
             const answered = pick !== null
             const isCorrect = idx === q.answer
             const isPicked = idx === pick
-            let style = 'border-[var(--line)] bg-white hover:border-[var(--lagoon-deep)]'
+            let style = 'border-[var(--line)] bg-[var(--surface-strong)] hover:border-[var(--lagoon-deep)]'
             if (answered && isCorrect) style = 'border-[var(--palm)] bg-[rgba(47,106,74,0.12)]'
             else if (answered && isPicked) style = 'border-[#c0445b] bg-[rgba(214,69,89,0.1)]'
-            else if (answered) style = 'border-[var(--line)] bg-white opacity-60'
+            else if (answered) style = 'border-[var(--line)] bg-[var(--surface-strong)] opacity-60'
             return (
               <button
                 key={idx}
@@ -96,7 +96,7 @@ function QuestionCard({ q }: { q: ExamQuestion }) {
           onChange={(e) => setDraft(e.target.value)}
           rows={5}
           placeholder="Draft your answer here, then reveal the model answer to compare…"
-          className="w-full resize-y rounded-xl border border-[var(--line)] bg-white px-3 py-2.5 text-sm text-[var(--sea-ink)] focus:border-[var(--lagoon-deep)] focus:outline-none"
+          className="w-full resize-y rounded-xl border border-[var(--line)] bg-[var(--surface-strong)] px-3 py-2.5 text-sm text-[var(--sea-ink)] focus:border-[var(--lagoon-deep)] focus:outline-none"
         />
       )}
 

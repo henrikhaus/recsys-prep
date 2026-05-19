@@ -103,12 +103,12 @@ export function QuizRunner({
         {q.options.map((opt, idx) => {
           const isCorrect = idx === q.answer
           const isPicked = idx === choice
-          let style = 'border-[var(--line)] bg-white hover:border-[var(--lagoon-deep)]'
+          let style = 'border-[var(--line)] bg-[var(--surface-strong)] hover:border-[var(--lagoon-deep)]'
           if (answered && isCorrect)
             style = 'border-[var(--palm)] bg-[rgba(47,106,74,0.12)]'
           else if (answered && isPicked && !isCorrect)
             style = 'border-[#c0445b] bg-[rgba(214,69,89,0.1)]'
-          else if (answered) style = 'border-[var(--line)] bg-white opacity-60'
+          else if (answered) style = 'border-[var(--line)] bg-[var(--surface-strong)] opacity-60'
           return (
             <button
               key={idx}
