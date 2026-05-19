@@ -48,7 +48,7 @@ function RankingTab() {
                 i < k ? 'ring-2 ring-[var(--lagoon-deep)] ring-offset-1' : '',
                 r
                   ? 'border-[var(--palm)] bg-[rgba(47,106,74,0.16)] text-[var(--palm)]'
-                  : 'border-[var(--line)] bg-white text-[var(--sea-ink-soft)]',
+                  : 'border-[var(--line)] bg-[var(--surface-strong)] text-[var(--sea-ink-soft)]',
               )}
             >
               <span className="text-[10px] font-semibold opacity-70">#{i + 1}</span>
@@ -205,7 +205,7 @@ function KendallTab() {
           {order.map((trueRank, i) => (
             <div
               key={i}
-              className="flex items-center gap-3 rounded-lg border border-[var(--line)] bg-white px-3 py-2"
+              className="flex items-center gap-3 rounded-lg border border-[var(--line)] bg-[var(--surface-strong)] px-3 py-2"
             >
               <span className="text-sm font-bold text-[var(--sea-ink-soft)]">#{i + 1}</span>
               <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--lagoon-deep)] text-sm font-bold text-white">

@@ -129,7 +129,7 @@ export function KnnViz() {
                             'h-9 w-12 rounded-md border text-center text-sm font-semibold tabular-nums focus:outline-none',
                             isTarget
                               ? 'border-[var(--lagoon-deep)] bg-[rgba(79,184,178,0.2)] text-[var(--lagoon-deep)] ring-2 ring-[var(--lagoon-deep)]'
-                              : 'border-[var(--line)] bg-white text-[var(--sea-ink)]',
+                              : 'border-[var(--line)] bg-[var(--surface-strong)] text-[var(--sea-ink)]',
                           )}
                         />
                       </td>

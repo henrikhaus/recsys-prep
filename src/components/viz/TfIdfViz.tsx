@@ -51,7 +51,7 @@ export function TfIdfViz() {
                 n[i] = e.target.value
                 setDocs(n)
               }}
-              className="w-full resize-none rounded-lg border border-[var(--line)] bg-white px-2.5 py-2 text-sm text-[var(--sea-ink)] focus:border-[var(--lagoon-deep)] focus:outline-none"
+              className="w-full resize-none rounded-lg border border-[var(--line)] bg-[var(--surface-strong)] px-2.5 py-2 text-sm text-[var(--sea-ink)] focus:border-[var(--lagoon-deep)] focus:outline-none"
             />
           ))}
         </div>
@@ -63,7 +63,7 @@ export function TfIdfViz() {
           <input
             value={term}
             onChange={(e) => setTerm(e.target.value)}
-            className="w-40 rounded-lg border border-[var(--line)] bg-white px-3 py-1.5 text-sm font-semibold text-[var(--sea-ink)] focus:border-[var(--lagoon-deep)] focus:outline-none"
+            className="w-40 rounded-lg border border-[var(--line)] bg-[var(--surface-strong)] px-3 py-1.5 text-sm font-semibold text-[var(--sea-ink)] focus:border-[var(--lagoon-deep)] focus:outline-none"
           />
         </label>
         <div>

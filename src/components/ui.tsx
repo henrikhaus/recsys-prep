@@ -14,7 +14,7 @@ const buttonStyles = cva(
         outline:
           'border border-[var(--line)] bg-[var(--surface-strong)] text-[var(--sea-ink)] hover:border-[var(--lagoon-deep)]',
         ghost: 'text-[var(--sea-ink-soft)] hover:bg-[var(--link-bg-hover)] hover:text-[var(--sea-ink)]',
-        soft: 'bg-[var(--chip-bg)] border border-[var(--chip-line)] text-[var(--palm)] hover:bg-white',
+        soft: 'bg-[var(--chip-bg)] border border-[var(--chip-line)] text-[var(--palm)] hover:bg-[var(--surface-strong)]',
       },
       size: {
         sm: 'text-sm px-3 py-1.5',

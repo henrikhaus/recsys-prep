@@ -46,7 +46,7 @@ export function ContextViz() {
               key={i}
               className={cn(
                 'rounded-lg border p-3',
-                d.on ? 'border-[var(--line)] bg-white' : 'border-dashed border-[var(--line)] opacity-55',
+                d.on ? 'border-[var(--line)] bg-[var(--surface-strong)]' : 'border-dashed border-[var(--line)] opacity-55',
               )}
             >
               <div className="mb-2 flex items-center gap-2">

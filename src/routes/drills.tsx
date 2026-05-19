@@ -103,7 +103,7 @@ function DrillsPage() {
                 onKeyDown={(e) => e.key === 'Enter' && check()}
                 disabled={result !== null}
                 placeholder="number"
-                className="w-44 rounded-lg border border-[var(--line)] bg-white px-3 py-2 text-sm font-semibold text-[var(--sea-ink)] tabular-nums focus:border-[var(--lagoon-deep)] focus:outline-none disabled:opacity-60"
+                className="w-44 rounded-lg border border-[var(--line)] bg-[var(--surface-strong)] px-3 py-2 text-sm font-semibold text-[var(--sea-ink)] tabular-nums focus:border-[var(--lagoon-deep)] focus:outline-none disabled:opacity-60"
               />
             </label>
             {result === null ? (

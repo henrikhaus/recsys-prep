@@ -56,7 +56,7 @@ export function NumInput({
         onChange(Number.isFinite(v) ? v : 0)
       }}
       className={cn(
-        'w-full rounded-lg border border-[var(--line)] bg-white px-2 py-1.5 text-center text-sm font-semibold text-[var(--sea-ink)] tabular-nums focus:border-[var(--lagoon-deep)] focus:outline-none',
+        'w-full rounded-lg border border-[var(--line)] bg-[var(--surface-strong)] px-2 py-1.5 text-center text-sm font-semibold text-[var(--sea-ink)] tabular-nums focus:border-[var(--lagoon-deep)] focus:outline-none',
         className,
       )}
     />
@@ -111,7 +111,7 @@ export function Segmented<T extends string>({
   onChange: (v: T) => void
 }) {
   return (
-    <div className="inline-flex flex-wrap gap-1 rounded-xl border border-[var(--line)] bg-white p-1">
+    <div className="inline-flex flex-wrap gap-1 rounded-xl border border-[var(--line)] bg-[var(--surface-strong)] p-1">
       {options.map((o) => (
         <button
           key={o.value}
