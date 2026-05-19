@@ -6,7 +6,7 @@ export function SiteFooter() {
     <footer className="site-footer mt-20">
       <div className="page-wrap flex flex-col gap-4 py-8 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-2.5">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--lagoon-deep)] text-white">
+          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--accent-fill)] text-[var(--accent-on)]">
             <Waves size={16} />
           </span>
           <div className="text-sm text-[var(--sea-ink-soft)]">

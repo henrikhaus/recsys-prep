@@ -48,7 +48,7 @@ function LearnIndex() {
                     className={
                       'flex h-10 w-10 shrink-0 items-center justify-center rounded-xl text-base font-bold ' +
                       (isDone
-                        ? 'bg-[var(--palm)] text-white'
+                        ? 'bg-[var(--palm)] text-[var(--accent-on)]'
                         : 'bg-[rgba(79,184,178,0.16)] text-[var(--lagoon-deep)]')
                     }
                   >

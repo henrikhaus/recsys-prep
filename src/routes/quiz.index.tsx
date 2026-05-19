@@ -22,7 +22,7 @@ function QuizIndex() {
 
       <Link to="/quiz/$topicId" params={{ topicId: 'mixed' }} className="no-underline">
         <Card className="feature-card mb-6 flex items-center gap-4 p-5">
-          <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--lagoon-deep)] text-white">
+          <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-[var(--accent-fill)] text-[var(--accent-on)]">
             <Shuffle size={22} />
           </span>
           <div className="flex-1">

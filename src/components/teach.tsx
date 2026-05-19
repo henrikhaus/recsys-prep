@@ -95,7 +95,7 @@ export function Steps({ items }: { items: ReactNode[] }) {
     <ol className="space-y-3">
       {items.map((it, i) => (
         <li key={i} className="flex gap-3">
-          <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[var(--lagoon-deep)] text-sm font-bold text-white">
+          <span className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[var(--accent-fill)] text-sm font-bold text-[var(--accent-on)]">
             {i + 1}
           </span>
           <div className="pt-0.5 text-[var(--sea-ink)] leading-relaxed">{it}</div>
@@ -196,7 +196,7 @@ export function MiniCheck({ q, children }: { q: ReactNode; children: ReactNode }
   return (
     <div className="rounded-xl border border-[rgba(79,184,178,0.4)] bg-[rgba(79,184,178,0.07)] p-4">
       <div className="mb-2 flex items-center gap-2">
-        <span className="rounded-md bg-[var(--lagoon-deep)] px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white">
+        <span className="rounded-md bg-[var(--accent-fill)] px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-[var(--accent-on)]">
           Check yourself
         </span>
       </div>
@@ -212,7 +212,7 @@ export function Bullets({ items }: { items: ReactNode[] }) {
     <ul className="space-y-2">
       {items.map((it, i) => (
         <li key={i} className="flex gap-2.5 text-[var(--sea-ink)] leading-relaxed">
-          <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--lagoon-deep)]" />
+          <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent-fill)]" />
           <span>{it}</span>
         </li>
       ))}

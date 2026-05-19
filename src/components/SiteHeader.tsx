@@ -44,7 +44,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[var(--header-bg)] backdrop-blur-md">
       <div className="page-wrap flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2.5 no-underline" onClick={() => setOpen(false)}>
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--lagoon-deep)] text-white">
+          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent-fill)] text-[var(--accent-on)]">
             <Waves size={19} />
           </span>
           <span className="leading-tight">

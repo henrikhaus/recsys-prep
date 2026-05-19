@@ -127,7 +127,7 @@ export function BanditViz() {
                   className={cn(
                     'flex h-7 w-7 items-center justify-center rounded-lg text-xs font-bold',
                     i === next
-                      ? 'bg-[var(--lagoon-deep)] text-white'
+                      ? 'bg-[var(--accent-fill)] text-[var(--accent-on)]'
                       : 'bg-[rgba(23,58,64,0.08)] text-[var(--sea-ink-soft)]',
                   )}
                 >
@@ -148,7 +148,7 @@ export function BanditViz() {
                   />
                 </div>
                 {i === next ? (
-                  <span className="rounded bg-[var(--lagoon-deep)] px-1.5 py-0.5 text-[10px] font-bold text-white">
+                  <span className="rounded bg-[var(--accent-fill)] px-1.5 py-0.5 text-[10px] font-bold text-[var(--accent-on)]">
                     next pull
                   </span>
                 ) : null}

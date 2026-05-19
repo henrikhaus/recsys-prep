@@ -120,7 +120,7 @@ export function Segmented<T extends string>({
           className={cn(
             'rounded-lg px-3 py-1.5 text-sm font-semibold transition-colors',
             value === o.value
-              ? 'bg-[var(--lagoon-deep)] text-white'
+              ? 'bg-[var(--accent-fill)] text-[var(--accent-on)]'
               : 'text-[var(--sea-ink-soft)] hover:bg-[var(--link-bg-hover)]',
           )}
         >

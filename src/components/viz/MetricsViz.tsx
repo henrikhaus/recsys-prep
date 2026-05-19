@@ -151,7 +151,7 @@ function ErrorTab() {
               <div className="flex-1">
                 <div className="h-2.5 overflow-hidden rounded-full bg-[rgba(23,58,64,0.08)]">
                   <div
-                    className="h-full rounded-full bg-[var(--lagoon-deep)]"
+                    className="h-full rounded-full bg-[var(--accent-fill)]"
                     style={{ width: `${(Math.abs(e) / maxErr) * 100}%` }}
                   />
                 </div>
@@ -208,7 +208,7 @@ function KendallTab() {
               className="flex items-center gap-3 rounded-lg border border-[var(--line)] bg-[var(--surface-strong)] px-3 py-2"
             >
               <span className="text-sm font-bold text-[var(--sea-ink-soft)]">#{i + 1}</span>
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--lagoon-deep)] text-sm font-bold text-white">
+              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--accent-fill)] text-sm font-bold text-[var(--accent-on)]">
                 {LETTERS[trueRank - 1]}
               </span>
               <span className="flex-1 text-sm text-[var(--sea-ink)]">

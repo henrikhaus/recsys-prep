@@ -45,7 +45,7 @@ function QuestionCard({ q }: { q: ExamQuestion }) {
   return (
     <Card className="p-5 sm:p-6">
       <div className="mb-2 flex flex-wrap items-center gap-2">
-        <span className="rounded-lg bg-[var(--sea-ink)] px-2 py-0.5 text-xs font-bold text-white">
+        <span className="rounded-lg bg-[var(--sea-ink)] px-2 py-0.5 text-xs font-bold text-[var(--accent-on)]">
           {q.number}
         </span>
         <h3 className="text-lg font-bold text-[var(--sea-ink)]">{q.title}</h3>

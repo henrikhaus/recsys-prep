@@ -9,8 +9,8 @@ const buttonStyles = cva(
     variants: {
       variant: {
         primary:
-          'text-white bg-[var(--lagoon-deep)] hover:bg-[#246f76] shadow-[0_8px_20px_rgba(50,143,151,0.32)] dark:bg-[var(--lagoon)] dark:text-[#062227] dark:hover:bg-[var(--lagoon-deep)]',
-        ink: 'text-white bg-[var(--sea-ink)] hover:opacity-90 dark:text-[#0a1418]',
+          'text-[var(--accent-on)] bg-[var(--accent-fill)] hover:opacity-90 shadow-[0_8px_20px_rgba(50,143,151,0.32)]',
+        ink: 'text-[var(--accent-on)] bg-[var(--sea-ink)] hover:opacity-90',
         outline:
           'border border-[var(--line)] bg-[var(--surface-strong)] text-[var(--sea-ink)] hover:border-[var(--lagoon-deep)]',
         ghost: 'text-[var(--sea-ink-soft)] hover:bg-[var(--link-bg-hover)] hover:text-[var(--sea-ink)]',

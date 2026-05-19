@@ -165,7 +165,7 @@ export function KnnViz() {
                   <span>
                     {n.name}{' '}
                     {inTop ? (
-                      <span className="ml-1 rounded bg-[var(--lagoon-deep)] px-1.5 py-0.5 text-[10px] font-bold text-white">
+                      <span className="ml-1 rounded bg-[var(--accent-fill)] px-1.5 py-0.5 text-[10px] font-bold text-[var(--accent-on)]">
                         neighbour
                       </span>
                     ) : null}

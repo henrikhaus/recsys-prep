@@ -168,7 +168,7 @@ function Home() {
           {PATH.map((s) => (
             <Card key={s.n} className="feature-card flex flex-col gap-2 p-5">
               <div className="flex items-center gap-3">
-                <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--lagoon-deep)] text-base font-bold text-white">
+                <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[var(--accent-fill)] text-base font-bold text-[var(--accent-on)]">
                   {s.n}
                 </span>
                 <h3 className="text-lg font-bold text-[var(--sea-ink)]">{s.title}</h3>
